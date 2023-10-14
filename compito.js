@@ -71,9 +71,32 @@ console.log(differenza);
 
 let name1 = "john";
 let name2 = "John";
-name1 === name2 
+console.log(name1 === name2);
+let1 !== name2
 
 
+let studente = {
+    nome: "Ugo",
+    eta: 30,
+    lavoro: "no",
+    citta: "Roma",
+    indirizzo:{
+        via: "Via ido",
+        citta: "Roma",
+        quartiere:"Testaccio",
+    }
+}
 
-let cici = "ici";
-console.log("Questo dott si chiama" + cici);
+console.log(studente.citta)
+console.log(studente.indirizzo.citta)
+studente.nome = "Marco"
+console.log(studente.nome)
+
+
+console.log(parseInt("123",10))
+console.log(parseFloat(12.5))
+
+let modulo = 5 % 2;
+console.log(parseFloat("43,67"))
+console.log("nomadedigitale".lenght === 4);
+console.log("oro" . length === 3);
